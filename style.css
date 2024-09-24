@@ -1,0 +1,85 @@
+body {
+  background-color: gray;
+}
+
+h1 {
+  color: orangered;
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+h2 {
+  color: orangered;
+  margin-left: 20px;
+}
+
+p {
+  color: orange;
+  margin-left: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.text-container {
+  width: 50%;
+  background-color: rgb(54, 54, 54); /* Gray background for the text container */
+  color: white; /* Change text color to white for better visibility */
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1; 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-right {
+  max-width: 300px; 
+}
+
+nav {
+  text-align: center;
+  background-color: rgb(54, 54, 54);
+  padding: 10px;
+}
+
+nav a {
+  font-size: 16px;
+  margin: 0 15px;
+  color: orange;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 5px 0;
+  background-color:rgb(173, 216, 230);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid rgb(173, 216, 230);
+  font-size: 0.7em
+}
+
+th {
+  background-color: rgb(135, 206, 235);
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
